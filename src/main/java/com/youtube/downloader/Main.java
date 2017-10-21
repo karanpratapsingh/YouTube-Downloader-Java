@@ -20,12 +20,12 @@ public class Main {
         String url = scanner.nextLine();
         apiVget.function(url);
 
-        // Uncomment the below code if you use linux.
+          // Uncomment the below code if you use linux.
 
-        CommandExec commandExec = new CommandExec();
-        String pathForNautilus = "nautilus " + apiVget.getPath();
-        System.out.println((char) 27 + "[36m" + "\n[*] Opening Downloads directory ...." + (char) 27 + "[0m");
-        commandExec.exec(pathForNautilus);
+        // CommandExec commandExec = new CommandExec();
+       //  String pathForNautilus = "nautilus " + apiVget.getPath();
+      //   System.out.println((char) 27 + "[36m" + "\n[*] Opening Downloads directory ...." + (char) 27 + "[0m");
+     //    commandExec.exec(pathForNautilus);
 
     }
 
